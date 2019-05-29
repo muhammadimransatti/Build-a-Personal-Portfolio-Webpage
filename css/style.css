@@ -1,0 +1,419 @@
+
+*{
+	margin:0;
+	padding:0;
+	
+}
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight:normal;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+a{
+		text-decoration:none;
+}
+
+#header{
+	position:fixed;
+	background-color: rgb(224,235,232);
+	padding-top:20px;
+	padding-left:850px;
+	width:100%;
+	display:transparent;
+}
+
+#navbar a{
+	color:rgb(0,130,128);
+	text-decoration:none;
+}
+
+li{
+	display:inline;
+	padding-left:50px;
+	padding-right:30px;
+	font-size:22px;
+}
+
+.container{
+	width:100%;
+	margin: 0px;
+	overflow:hidden;
+}
+
+.first-box{
+	height:700px;
+	width:100%;
+	background-color: rgb(224,235,232);
+}
+
+.first-box h1{
+	padding-top:330px;
+	padding-left:41%;
+	font-size:35px;
+}
+
+.first-box p{
+	color: rgb(49,152,51);
+	padding-left:46%;
+	padding-top:10px;
+}
+
+.second-box{
+	padding-top:50px;
+	height:1250px;
+	width:100%;
+	background-color: white;
+}
+
+.second-box h1{
+	margin-top:25px;
+	padding-left:40%;
+	font-size:28px;
+	color: rgb(19,137,137);
+}
+
+	.second-box .left{
+	height:800px;
+	width: 300px;
+	margin-left: 340px;
+	margin-top: 40px;
+	float:left;
+	margin-left:300px;
+	background-color: white;
+
+	}
+	
+	.second-box .right{
+	height:800px;
+	width: 300px;
+	margin-top: 40px;
+	margin-right:180px;
+	background-color: white;
+	float:right;
+	}
+
+
+/* tribute page style*/
+.tribute-box{ 
+  margin-left:4px;
+  margin-top: 40px;
+  height:240px;
+  width: 280px;
+  padding: 0px;
+  border: 2px solid;
+  border-color: rgb(173,216,230);
+}
+
+.tribute-box h1{
+	margin:0;
+	padding-top:20px;
+	font-size:18px;
+	padding-left:45px;
+}
+
+.tribute-box-img{
+	height:120px;
+	width: 140px;
+	align-self: flex-start;
+	padding-left:25px;
+	padding-top:8px;
+	margin-bottom:0px;
+	flex:3;
+}
+
+.tribute-box .small-box{	
+  height:60px;
+  width: 280px;
+   border: 2px solid;
+   margin-top:50px;
+  border-right: 0px solid;
+  border-color: rgb(173,216,230);
+  flex:1; 
+}
+
+.tribute-box .small-box h1{	
+	color: rgb(19,137,137);
+	text-decoration:none;
+	padding-left:75px;
+	align-content:flex-start;
+}
+
+/* left-side other box style */ 
+.box1{ 
+  margin-left: 4px;
+  margin-top: 80px;
+  height:240px;
+  width: 280px;
+  padding: 0px;
+  border: 2px solid;
+  border-color: rgb(173,216,230);
+}
+
+.box1 h1{
+	margin:0;
+	padding-top:80px;
+	font-size:18px;
+	padding-left:45px;
+}
+
+.box-img1{
+	height:118px;
+	width: 142px;
+	align-items: flex-start;
+	flex:3;
+}
+
+
+.small-box1{	
+  height:30px;
+  width: 280px;
+  border: 2px solid;
+  border-right: 0px solid;
+  border-color: rgb(173,216,230);
+  flex:1; 
+}
+
+.small-box1 h1{	
+	color: rgb(19,137,137);
+	text-decoration:none;
+	align-content:flex-start;
+}
+
+
+/*  random machine box style*/
+
+.box2{ 
+  height:240px;
+  width: 280px;
+  padding: 0px;
+  margin-top:40px;
+  border: 2px solid;
+  border-color: rgb(173,216,230);
+
+}
+
+.box2 h1{
+	margin:0;
+	padding-top:80px;
+	font-size:18px;
+	padding-left:45px;
+}
+
+.box-img2{
+	height:118px;
+	width: 142px;
+	align-items: flex-start;
+	flex:3;
+}
+
+
+.small-box2{	
+  height:60px;
+  width: 280px;
+  margin-top:60px;
+  border: 2px solid;
+  border-right: 0px solid;
+  border-color: rgb(173,216,230);
+  flex:1; 
+}
+
+.small-box2 h1{	
+	color: rgb(19,137,137);
+	text-decoration:none;
+	align-content:flex-start;
+	margin-top:0px;
+	padding-top:20px;
+}
+
+
+/*  right side boxes style*/
+
+.box3{ 
+  height:240px;
+  width: 280px;
+  padding: 0px;
+  margin-top:80px;
+  border: 2px solid;
+  border-color: rgb(173,216,230);
+
+}
+
+.box3 h1{
+	margin:0;
+	padding-top:80px;
+	font-size:18px;
+	padding-left:30px;
+}
+
+.box-img3{
+	height:118px;
+	width: 142px;
+	align-items: flex-start;
+	flex:3;
+}
+
+
+.small-box3{	
+  height:30px;
+  width: 280px;
+  border: 2px solid;
+  border-right: 0px solid;
+  border-color: rgb(173,216,230);
+  flex:1; 
+}
+
+.small-box3 h1{	
+	color: rgb(19,137,137);
+	text-decoration:none;
+	align-content:flex-start;
+}
+
+/*  Tic Tac Toe Game box style*/
+
+.box4{ 
+  height:240px;
+  width: 280px;
+  padding: 0px;
+  margin-top:80px;
+  border: 2px solid;
+  border-color: rgb(173,216,230);
+
+}
+
+.box4 h1{
+	margin:0;
+	padding-top:80px;
+	font-size:18px;
+	padding-left:60px;
+}
+
+.box-img4{
+	height:118px;
+	width: 142px;
+	align-items: flex-start;
+	flex:3;
+}
+
+.small-box4{	
+  height:30px;
+  width: 280px;
+  border: 2px solid;
+  border-right: 0px solid;
+  border-color: rgb(173,216,230);
+  flex:1; 
+}
+
+.small-box4 h1{	
+	color: rgb(19,137,137);
+	text-decoration:none;
+	align-content:flex-start;
+}
+
+button{
+	font-size:20px;
+	margin-top:78%;
+	border: 2px solid;
+    border-color: rgb(144,198,149);
+	background-color: rgb(224,235,232);
+	color: rgb(0,128,128);
+	padding: 10px 90px 15px 90px;
+}
+
+.third-box{
+	padding-top:50px;
+	height:600px;
+	width:100%;
+	background-color: rgb(200,247,197);
+}
+.third-box h1{
+	padding-top:150px;
+	padding-left:38%;
+	font-size:35px;
+	color: black;
+}
+
+.third-box p{
+	padding-top:10px;
+	padding-left:44%;
+	font-size:18px;
+	color: black;
+}
+
+.third-box .bx{
+	height:500px;
+	width:1000px;
+	padding-top:100px;
+	padding-left:200px;
+}
+
+/* call me git hub and twiter*/
+.dot  {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(224,235,232);
+  border-radius: 50%;
+  border: 2px solid rgb(144,198,149);
+  display: inline-block;
+  margin-left:60px;
+}
+.dot h1{
+	font-size:15px;
+    padding-top:38px;
+	padding-left:10px;
+    color: rgb(0,128,128);
+}
+
+.dot1  {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(224,235,232);
+  border-radius: 50%;
+  border: 2px solid rgb(144,198,149);
+  display: inline-block;
+  margin-left:60px;
+}
+.dot1 h1{
+	font-size:15px;
+    padding-top:38px;
+	padding-left:20px;
+    color: rgb(0,128,128);
+}
+
+.dot:hover {
+	background-color:rgb(228,241,254);
+	color: rgb(0,128,0);
+}
+
+.dot1:hover {
+	background-color:rgb(228,241,254);
+	color: rgb(0,128,0);
+}
+
+
+
+
+footer{
+	padding: 0px;
+	width:100%;
+	height:120px;
+	background-color: rgb(34,49,63);
+}
+
+footer p{
+	color: white;
+	padding-top:20px;
+	padding-left:350px;
+	
+}
+footer .copywright{
+		padding-left:200px;
+}
+
+footer a{
+	text-decoration:underline;
+	color:white;
+}
